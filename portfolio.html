@@ -1,60 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-</head>
-<body>
-<!-- Nav Bar -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <!-- Nav Bar -->
     <nav class="navbar navbar-primary bg-primary">
-        <span class="navbar-brand text-white display-1" style="font-size: 48pt;">Wesley Slifer</span>
+      <span class="navbar-brand text-white display-1" style="font-size: 48pt;"
+        >Wesley Slifer</span
+      >
 
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link text-white" href=index.html style="font-size: 36pt;">About</a>
-            </li>
-            <li class="nav-item" >
-                <a class="nav-link text-white" href= portfolio.html style="font-size: 36pt;">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href= contact.html style="font-size: 36pt;">Contact</a>
-            </li>
-        </ul>
-    </nav> 
-<!-- Portfolio -->
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a
+            class="nav-link text-white"
+            href="index.html"
+            style="font-size: 36pt;"
+            >About</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link text-white"
+            href="portfolio.html"
+            style="font-size: 36pt;"
+            >Portfolio</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link text-white"
+            href="contact.html"
+            style="font-size: 36pt;"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!-- Portfolio -->
     <div class="container mt-4 ml-0 pl-0">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="card">
-              <div class="card-body h1 bg-info text-white">
-                Portfolio
-              </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-body h1 bg-info text-white">
+              Portfolio
             </div>
           </div>
         </div>
-<!-- Projects -->
-        <div class="row">
-            <figure class="col-lg-6">
-              <img class="img-fluid rounded float-left" src="http://placehold.it/250x250" alt="Responsive Image">
-           </figure>
-            <figure class="col-lg-6">
-              <img class="img-fluid rounded float-left" src="http://placehold.it/250x250" alt="Responsive Image">
-            </figure>
-          <div class="w-100"></div>
-            <figure class="col-lg-6">
-              <img class="img-fluid rounded float-left" src="http://placehold.it/250x250" alt="Responsive Image">
-            </figure>
-            <figure class="col-lg-6">
-              <img class="img-fluid rounded float-left" src="http://placehold.it/250x250" alt="Responsive Image">
-            </figure>
-          <div class="w-100"></div>
-            <figure class="col-lg-6">
-              <img class="img-fluid rounded float-left" src="http://placehold.it/250x250" alt="Responsive Image">
-            </figure>
-        </div>
-    </div> 
-</body>
+      </div>
+      <!-- Projects -->
+      <div class="row">
+        <figure class="card" style="width: 25rem; margin-left: 5%;">
+          <img
+            src="./assets/pictures/project1screenshot.JPG"
+            class="card-img-top"
+            alt="Project Screenshot"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Project 1: Bites and Quarantinis</h5>
+            <p class="card-text">
+              This is my first project during the bootcamp. It showcases how far
+              I have come since starting.
+            </p>
+            <a
+              href="https://wslifer.github.io/Project_1/"
+              class="btn btn-primary"
+              style="width: 49%;"
+              >Deployed Application</a
+            >
+            <a
+              href="https://github.com/wslifer/Project_1"
+              class="btn btn-primary"
+              style="width: 49%;"
+              >Github Repo</a
+            >
+          </div>
+        </figure>
+        <figure class="card" style="width: 25rem; margin-left: 5%;">
+          <img
+            src="./assets/pictures/passwordGenerator.JPG"
+            class="card-img-top"
+            alt="Project Screenshot"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Password Generator</h5>
+            <p class="card-text">
+              A password generator that I have made.
+            </p>
+            <a
+              href="https://wslifer.github.io/password-generator/"
+              class="btn btn-primary"
+              style="width: 49%;"
+              >Deployed Application</a
+            >
+            <a
+              href="https://github.com/wslifer/password-generator"
+              class="btn btn-primary"
+              style="width: 49%;"
+              >Github Repo</a
+            >
+          </div>
+        </figure>
+        <div class="w-100"></div>
+        <figure class="card" style="width: 25rem; margin-left: 5%;">
+          <img
+            src="./assets/pictures/codingQuiz.JPG"
+            class="card-img-top"
+            alt="Project Screenshot"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Coding Quiz</h5>
+            <p class="card-text">
+              A quick little quiz to see how well you know your coding trivia.
+            </p>
+            <a
+              href="https://wslifer.github.io/coding-quiz/"
+              class="btn btn-primary"
+              style="width: 49%;"
+              >Deployed Application</a
+            >
+            <a
+              href="https://github.com/wslifer/coding-quiz"
+              class="btn btn-primary"
+              style="width: 49%;"
+              >Github Repo</a
+            >
+          </div>
+        </figure>
+        <figure class="col-lg-6">
+          <img
+            class="img-fluid rounded float-left"
+            src="http://placehold.it/250x250"
+            alt="Responsive Image"
+          />
+        </figure>
+        <div class="w-100"></div>
+        <figure class="col-lg-6">
+          <img
+            class="img-fluid rounded float-left"
+            src="http://placehold.it/250x250"
+            alt="Responsive Image"
+          />
+        </figure>
+      </div>
+    </div>
+  </body>
 </html>
